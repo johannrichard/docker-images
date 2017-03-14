@@ -1,4 +1,8 @@
 FROM goofball222/unifi:latest
+
+# Go for the latest "testing"
+ENV UNIFI_VERSION 5.5.7-0cbda0cd4a
+
 LABEL org.freenas.interactive="false" \
       org.freenas.version="5.3.8" \
       org.freenas.upgradeable="false" \
